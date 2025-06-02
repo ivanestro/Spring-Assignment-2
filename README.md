@@ -10,7 +10,7 @@
 
 - SIMPLE DATA TYPES
 
-1. Simple Data Types | Store a name and assign a variable a value containing the characters of your first name.
+1. Simple Data Types | Store a name and assign a variable a value containing the characters of your first name. - [x] Done
 
 2. Print he value and the data type of the variable declared above.
 
