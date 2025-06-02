@@ -10,11 +10,11 @@
 
 - SIMPLE DATA TYPES
 
-1. Simple Data Types | Store a name and assign a variable a value containing the characters of your first name. - [x] Done
+1. ✓ Simple Data Types | Store a name and assign a variable a value containing the characters of your first name.
 
-2. Print he value and the data type of the variable declared above.
+2. ✓ Print he value and the data type of the variable declared above.
 
-3. Declare a variable that stores whether or not a person currently has a valid manitoba driver's license and assign the variable and value indicating your current Manitoba Driver's License status.
+3. ✓ Declare a variable that stores whether or not a person currently has a valid manitoba driver's license and assign the variable and value indicating your current Manitoba Driver's License status.
 
 4. Print the value and the datatype of the variable declared above.
 
