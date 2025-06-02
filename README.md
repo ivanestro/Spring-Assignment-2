@@ -92,7 +92,7 @@
 
 8. Save and commit your changes with a meaningful message.
 
-- SETS
+- **SETS**
 
 1. Declare a variable to store a set. Assign the variable a new set containing literal values representing even numbers values between 2 and 20 (inclusive).
 
