@@ -8,13 +8,13 @@
 
 ## Assignment 2 Questions
 
-- SIMPLE DATA TYPES
+- **SIMPLE DATA TYPES**
 
-1. ✓ Simple Data Types | Store a name and assign a variable a value containing the characters of your first name.
+1. Simple Data Types | Store a name and assign a variable a value containing the characters of your first name. ✓
 
-2. ✓ Print he value and the data type of the variable declared above.
+2. Print he value and the data type of the variable declared above. ✓
 
-3. ✓ Declare a variable that stores whether or not a person currently has a valid manitoba driver's license and assign the variable and value indicating your current Manitoba Driver's License status.
+3. Declare a variable that stores whether or not a person currently has a valid manitoba driver's license and assign the variable and value indicating your current Manitoba Driver's License status. ✓
 
 4. Print the value and the datatype of the variable declared above.
 
@@ -26,7 +26,7 @@
 
 8. Print the value and the datatype of the variable declared above.
 
-- PERFORM MATHEMATICAL OPERATIONS [MATHEMATICAL OPERATIONS]
+- **PERFORM MATHEMATICAL OPERATIONS**
 
 1. Declare a variable to store a the current Canadian Federal Goods and Services Tax Rate (GST). Since the GST does not change frequently, this would be a good situation in which to identify this variable using constant notation. Ensure this variable is defined as a constant. Assign this variable the actual value of current Canadian Federal Goods and Services Tax Rate.
 
@@ -42,7 +42,7 @@
 
 7. Print again using f-strings where the numeric data is formatted. Format the numeric data to two decimal places and commas as the thousand separator. Also, precede the formatted numeric value with a dollar sign ($). Example: $1,234.50
 
-- DECLARE AND USE COLLECTION TYPES [Lists]
+- **DECLARE AND USE COLLECTION TYPES**
 
 1. Declare a variable that stores a list. Assign the variable a new list containing the literal values 1 through 10 inclusive.
 
@@ -64,7 +64,7 @@
 
 10. Print the list created in step 9.
 
-- TUPLES [TUPLES]
+- **TUPLES**
 
 1. Declare a variable that stores a tuple. Assign the variable a new tuple that contains names of 4 Canadian provinces.
 
@@ -74,7 +74,7 @@
 
 4. Save and Commit your changes with a meaningful message.
 
-- DICTIONARIES [nickel, dime and quarter]
+- **DICTIONARIES**
 
 1. Declare a variable to store a dictionary. Assign the variable a dictionary that has the keys 'nickel', 'dime', and 'quarter' with the corresponding Canadian currency amounts as the values (as floating points) (e.g. nickel is associated with the value 0.05).
 
