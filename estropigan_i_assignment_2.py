@@ -20,3 +20,4 @@ if MANITOBA_DRIVERS_LICENSE == 'True':
 
 elif MANITOBA_DRIVERS_LICENSE == 'False':
     print("Invalid Drivers License.")
+    
