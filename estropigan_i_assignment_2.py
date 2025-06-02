@@ -6,7 +6,7 @@ __credits__ = "COMP-1327 Dev Team"
 
 ## SIMPLE DATA TYPES
 
-# Variables 
+# Variables
 NAME = 'Ivan'
 MANITOBA_DRIVERS_LICENSE = False
 
