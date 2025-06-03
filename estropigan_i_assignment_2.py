@@ -14,6 +14,10 @@ GST = 0.05
 PST = 0.07
 vehicle_cost = 100000.00
 final_vehicle_cost_with_tax = (0.05 + 0.07) * (vehicle_cost) + vehicle_cost
+list = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10]
+new_list = ['A', 'B', 'C']
+combine_list = list + new_list
+
 
 # Print name and datatype
 print("name: ", NAME, "type: ", type(NAME))
@@ -116,3 +120,44 @@ final_vehicle_cost_with_tax = (0.05 + 0.07) * (vehicle_cost) + vehicle_cost
 Returns: Purchase Price: $100,000.00 Provincial Tax: $0.07 Federal Tax: $0.05 Total: $112,000.00
 """
 
+# Checking if list type list
+print(type(list))
+
+""" To check if the list I have created is a type of list
+
+Args:
+list = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10]
+
+Returns: <class 'list'>
+"""
+
+# Adding my first name
+list.insert(5, 'Ivan')
+print(list)
+
+""" To add my first name in between 5 and 6 without re-defining.
+Args:
+list.insert(5, 'Ivan')
+
+Returns: [1, 2 ,3, 4, 5, 'Ivan", 6, 7, 8, 9, 10]
+"""
+
+# Remove number 9 to the list
+list.remove(9)
+print(list)
+""" To remove number 9 in the list and print to check
+Args:
+list.remove(9)
+
+Returns: [1, 2 ,3, 4, 5, 'Ivan", 6, 7, 8, 10]
+"""
+
+# Combine both list and print
+print(combine_list)
+""" Combining both list and new list and print
+Args:
+list = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10]
+new_list = ['A', 'B', 'C']
+
+Returns: [1, 2 ,3, 4, 5, 6, 7, 8, 10, 'A', 'B', 'C']
+"""
