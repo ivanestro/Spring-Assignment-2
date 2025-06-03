@@ -204,14 +204,14 @@ dictionary = {'nickle': 0.05,
 Returns: <class 'dict'>
 """
 
-# Modifying nickle to 5
+# Modifying dictionary list by update
 dictionary.update({'nickle': 5, 'dime':10, 'quarter': 25})
 print(dictionary)
-""" Modifying nickle to 5 and printing it
+""" Updating the list to their desired values this will help less clutter of code.
 Args:
-dictionary['nickle'] = 5
+dictionary.update({'nickle': 5, 'dime':10, 'quarter': 25})
 
-Returns: {'nickle': 5, 'dime': 0.1, 'quarter': 0.25}
+Returns: dictionary.update({'nickle': 5, 'dime':10, 'quarter': 25})
 """
 
 # Adding two items to dictionary
