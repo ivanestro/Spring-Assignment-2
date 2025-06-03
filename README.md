@@ -141,37 +141,37 @@ Purchase Price: ${formatted value} Provincial Tax: ${formatted value} Federal Ta
 
 ```csharp
 #Save and Commit!
-#Save and commit your changes with a meaningful message.
+#Save and commit your changes with a meaningful message. ✓
 ```
 
-- **SETS**
+- **SETS** 
 
-1. Declare a variable to store a set. Assign the variable a new set containing literal values representing even numbers values between 2 and 20 (inclusive).
+1. Declare a variable to store a set. Assign the variable a new set containing literal values representing even numbers values between 2 and 20 (inclusive). ✓
 
-2. Verify a set has been created by printing the data type of your set.
+2. Verify a set has been created by printing the data type of your set. ✓
 
-3. Print the set.
+3. Print the set. ✓
 
 4. Declare a variable to store a set. Assign the variable a new set containing the literal values representing multiples of 5 between 5 and 20 (inclusive).
 
-5. Print the set.
+5. Print the set. ✓
 
-6. Declare a variable to store a set. Assign the variable a new set which contains only the unique values of the two sets created above. Do not use literal values to accomplish this task.
+6. Declare a variable to store a set. Assign the variable a new set which contains only the unique values of the two sets created above. Do not use literal values to accomplish this task. ✓
 
-7. Print the set.
+7. Print the set. ✓
 
-8. Declare a variable to store a set. Assign the variable a new set which contains only the values that the first two sets have in common. Do not use literal values to accomplish this task.
+8. Declare a variable to store a set. Assign the variable a new set which contains only the values that the first two sets have in common. Do not use literal values to accomplish this task. ✓
 
-9. Print the set.
+9. Print the set. ✓
 
-10. Declare a variable to store a set. Assign the variable a new set which contains only the values that appear in the first set (multiples of 2) but not in the second set (multiples of 5). Do not use literal values to accomplish this task.
+10. Declare a variable to store a set. Assign the variable a new set which contains only the values that appear in the first set (multiples of 2) but not in the second set (multiples of 5). Do not use literal values to accomplish this task. ✓
 
-11. Print the set.
+11. Print the set. ✓
 
-12. Declare a variable to store a set. Assign the variable a new set which contains only the values that appear in the second set (multiples of 5) but not in the first set (multiples of 2). You must not use literal values to accomplish this task.
+12. Declare a variable to store a set. Assign the variable a new set which contains only the values that appear in the second set (multiples of 5) but not in the first set (multiples of 2). You must not use literal values to accomplish this task. ✓
 
-13. Print the set.
+13. Print the set. ✓
 
-14. Save and commit your changes with a meaningful message.
+14. Save and commit your changes with a meaningful message. ✓
 
 [EOF]
