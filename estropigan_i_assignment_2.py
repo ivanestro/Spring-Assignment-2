@@ -18,6 +18,9 @@ list = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10]
 new_list = ['A', 'B', 'C']
 combine_list = list + new_list
 test_tuple = ('MB', "AB", "SK", "BC")
+dictionary = {'nickle': 0.05,
+              'dime': 0.10,
+              'quarter': 0.25}
 
 # Print name and datatype
 print("name: ", NAME, "type: ", type(NAME))
@@ -178,4 +181,37 @@ Args:
 test_tuple = ('MB', 'AB', 'SK', 'BC')
 
 Returns: ('MB', 'AB', 'SK', 'BC')
+"""
+
+# Checking if it is a dictionary
+print(type(dictionary))
+""" Checking to see if it is a type referring to dictionary.
+Args:
+dictionary = {'nickle': 0.05,
+              'dime': 0.10,
+              'quarter': 0.25}
+
+Returns: <class 'dict'>
+"""
+
+# Modifying nickle to 5
+dictionary['nickle'] = 5
+print(dictionary)
+""" Modifying nickle to 5 and printing it
+Args:
+dictionary['nickle'] = 5
+
+Returns: {'nickle': 5, 'dime': 0.1, 'quarter': 0.25}
+"""
+
+# Adding two items to dictionary
+dictionary['Loonie'] = 100
+dictionary['Toonie'] = 200
+print(dictionary)
+""" Adding two items loonie and toonie, setting values and printing it
+Args:
+dictionary['Loonie'] = 100
+dictionary['Toonie'] = 200
+
+Returns: {'nickle': 5, 'dime': 0.1, 'quarter': 0.25, 'Loonie': 100, 'Toonie': 200}
 """
