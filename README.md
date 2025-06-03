@@ -14,17 +14,46 @@
 
 2. Print he value and the data type of the variable declared above. ✓
 
+```csharp
+# The output must be in the following format:
+
+name: {display value} type: {display data type}
+```
+
 3. Declare a variable that stores whether or not a person currently has a valid manitoba driver's license and assign the variable and value indicating your current Manitoba Driver's License status. ✓
 
-4. Print the value and the datatype of the variable declared above.
+4. Print the value and the datatype of the variable declared above. ✓
 
-5. Declare a variable to store the current year and assign the variable the value of the current year.
+```csharp
+# The output must be in the following format:
 
-6. Print the value and the datatype of the variable declared above.
+has license: {display value} type: {display data type} ✓
+```
 
-7. Increase the value stored by the current year variable by 1.
+5. Declare a variable to store the current year and assign the variable the value of the current year. ✓
 
-8. Print the value and the datatype of the variable declared above.
+6. Print the value and the datatype of the variable declared above. ✓
+
+```csharp
+# The output must be in the following format:
+
+this year: {display value} type: {display data type} ✓
+```
+
+7. Increase the value stored by the current year variable by 1. ✓
+
+8. Print the value and the datatype of the variable declared above. ✓
+
+```csharp
+# The output must be in the following format:
+
+next year: {display value} type : {display data type} ✓
+```
+
+```csharp
+# SAVE AND COMMIT!
+# Save and commit your changes with a meaningful message.
+```
 
 - **PERFORM MATHEMATICAL OPERATIONS**
 
