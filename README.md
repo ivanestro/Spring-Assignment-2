@@ -83,25 +83,30 @@ Purchase Price: ${formatted value} Provincial Tax: ${formatted value} Federal Ta
 
 - **DECLARE AND USE COLLECTION TYPES**
 
-1. Declare a variable that stores a list. Assign the variable a new list containing the literal values 1 through 10 inclusive.
+1. Declare a variable that stores a list. Assign the variable a new list containing the literal values 1 through 10 inclusive. ✓
 
-2. Verify a list has been created by printing the data type of your variable.
+2. Verify a list has been created by printing the data type of your variable. ✓
 
-3. Print the list.
+3. Print the list. ✓
 
-4. Add your first name to the list created in step 1 between the elements containing the values of 5 and 6. Do not redefine the list.
+4. Add your first name to the list created in step 1 between the elements containing the values of 5 and 6. Do not redefine the list. ✓
 
-5. Print the list.
+5. Print the list. ✓
 
-6. Remove the number 9 from the list created in step 1.
+6. Remove the number 9 from the list created in step 1. ✓
 
 7. Print the list.
 
-8. Declare a variable that stores a list. Assign the variable a new list containing the literal values representing the characters A, B and C. This new list must have three elements, where each element represent a single character.
+8. Declare a variable that stores a list. Assign the variable a new list containing the literal values representing the characters A, B and C. This new list must have three elements, where each element represent a single character. ✓
 
-9. Declare a variable that stores a list. Assign the variable a new list containing values of the first and second lists created above. You must not use literal values to accomplish this task. The new list must not contain any lists.
+9. Declare a variable that stores a list. Assign the variable a new list containing values of the first and second lists created above. You must not use literal values to accomplish this task. The new list must not contain any lists. ✓
 
-10. Print the list created in step 9.
+10. Print the list created in step 9. ✓
+
+```csharp
+# Save and Commit!
+# Save and commit your changes with a meaningful message. ✓
+```
 
 - **TUPLES**
 
