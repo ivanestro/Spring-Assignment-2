@@ -17,7 +17,7 @@
 ```csharp
 # The output must be in the following format:
 
-name: {display value} type: {display data type}
+name: {display value} type: {display data type} ✓
 ```
 
 3. Declare a variable that stores whether or not a person currently has a valid manitoba driver's license and assign the variable and value indicating your current Manitoba Driver's License status. ✓
@@ -52,24 +52,34 @@ next year: {display value} type : {display data type} ✓
 
 ```csharp
 # SAVE AND COMMIT!
-# Save and commit your changes with a meaningful message.
+# Save and commit your changes with a meaningful message. ✓
 ```
 
 - **PERFORM MATHEMATICAL OPERATIONS**
 
-1. Declare a variable to store a the current Canadian Federal Goods and Services Tax Rate (GST). Since the GST does not change frequently, this would be a good situation in which to identify this variable using constant notation. Ensure this variable is defined as a constant. Assign this variable the actual value of current Canadian Federal Goods and Services Tax Rate.
+1. Declare a variable to store a the current Canadian Federal Goods and Services Tax Rate (GST). Since the GST does not change frequently, this would be a good situation in which to identify this variable using constant notation. Ensure this variable is defined as a constant. Assign this variable the actual value of current Canadian Federal Goods and Services Tax Rate. ✓
 
-2. Declare a variable to store a the current Manitoba Provincial Sales Tax Rate (PST). Since the PST does not change frequently, this would be a good situation in which to identify this variable using constant notation. Ensure this variable is defined as a constant. Assign this variable the actual value of current Manitoba Provincial Sales Tax Rate.
+2. Declare a variable to store a the current Manitoba Provincial Sales Tax Rate (PST). Since the PST does not change frequently, this would be a good situation in which to identify this variable using constant notation. Ensure this variable is defined as a constant. Assign this variable the actual value of current Manitoba Provincial Sales Tax Rate. ✓
 
-3. Declare a variable to store the purchase price of a vehicle and assign it a value of your choosing between 60000.01 and 100000.00.
+3. Declare a variable to store the purchase price of a vehicle and assign it a value of your choosing between 60000.01 and 100000.00. ✓
 
-4. Using the variables and constants described in the previous steps, calculate the Federal and Provincial Tax that would be charged for sale of the vehicle (step 3). The two tax values will be stored in two separate variables.
+4. Using the variables and constants described in the previous steps, calculate the Federal and Provincial Tax that would be charged for sale of the vehicle (step 3). The two tax values will be stored in two separate variables. ✓
 
-5. Calculate the final cost of the vehicle. The final cost of the vehicle is the sum of the purchase price and taxes. The final cost of the vehicle will be stored in a variable.
+5. Calculate the final cost of the vehicle. The final cost of the vehicle is the sum of the purchase price and taxes. The final cost of the vehicle will be stored in a variable. ✓
 
-6. Print the results of the calculations using a single print statement without formatting (do not use any f-strings). The output must be in the following format (use actual values in place of {value}):
+6. Print the results of the calculations using a single print statement without formatting (do not use any f-strings). The output must be in the following format (use actual values in place of {value}): ✓
 
-7. Print again using f-strings where the numeric data is formatted. Format the numeric data to two decimal places and commas as the thousand separator. Also, precede the formatted numeric value with a dollar sign ($). Example: $1,234.50
+7. Print again using f-strings where the numeric data is formatted. Format the numeric data to two decimal places and commas as the thousand separator. Also, precede the formatted numeric value with a dollar sign ($). Example: $1,234.50 ✓
+
+```csharp
+# The output must be in the following format (use formatted values in place of {formatted value}):
+Purchase Price: ${formatted value} Provincial Tax: ${formatted value} Federal Tax: ${formatted value} Total: ${formatted value} ✓
+```
+
+```csharp
+# Save and Commit!
+# Save and commit your changes with a meaningful message. ✓
+```
 
 - **DECLARE AND USE COLLECTION TYPES**
 
