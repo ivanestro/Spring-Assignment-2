@@ -172,6 +172,8 @@ Purchase Price: ${formatted value} Provincial Tax: ${formatted value} Federal Ta
 
 13. Print the set. ✓
 
-14. Save and commit your changes with a meaningful message. ✓
-
+```csharp
+#Save and Commit!
+#Save and commit your changes with a meaningful message. ✓
+```
 [EOF]

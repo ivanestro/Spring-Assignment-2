@@ -21,6 +21,9 @@ test_tuple = ('MB', "AB", "SK", "BC")
 dictionary = {'nickle': 0.05,
               'dime': 0.10,
               'quarter': 0.25}
+store_set = {2, 4, 6, 8, 10, 12, 14 ,16, 18 ,20}
+store_new_set = {5, 10, 15, 20}
+
 
 # Print name and datatype
 print("name: ", NAME, "type: ", type(NAME))
@@ -49,7 +52,7 @@ if CURRENT_DRIVERS_LICENSE:
 
 else: 
     print("")
-""" The purpose of this code is to check whether they have valid or invalid Driver's License.
+""" Check if they have a valid driver's license.
 
 Args:
 CURRENT_MANITOBA_DRIVERS_LICENS = True
@@ -65,7 +68,7 @@ If False: Invalid Drivers License.
 # Print current year of 2025 and type
 print(f"this year: {current_year}", "type: ", type(current_year))
 
-""" To store current year, print it to the system and get the type of the year
+""" Store current year, print it to the system and get the datatype
 
 Args:
 current_year = 2025 variable
@@ -214,4 +217,75 @@ dictionary['Loonie'] = 100
 dictionary['Toonie'] = 200
 
 Returns: {'nickle': 5, 'dime': 0.1, 'quarter': 0.25, 'Loonie': 100, 'Toonie': 200}
+"""
+
+# Making sure type is: set
+print(type(store_set))
+""" printing what type is set
+Args:
+store_set = {2, 4, 6, 8, 10, 12, 14 ,16, 18 ,20} 
+
+Returns: <class 'set'>
+"""
+
+# Verifying the contents of set
+print(store_set)
+""" printing the contents inside of the set
+Args:
+store_set = {2, 4, 6, 8, 10, 12, 14 ,16, 18 ,20} 
+
+Returns: {2, 4, 6, 8, 10, 12, 14, 16, 18, 20}
+"""
+
+# Added new set only multiple of 5's
+print(store_new_set)
+""" printing the new set of multiples of 5's
+Args:
+new_set = {5, 10, 15, 20}
+
+Returns: {10, 20, 5, 15}
+"""
+
+# Combine both two sets
+union = store_new_set.union(store_set)
+print(union)
+""" combining two sets and printing both sets in one line
+
+Args:
+union = store_new_set.union(store_set)
+
+Returns: {2, 4, 5, 6, 8, 10, 12, 14, 15, 16, 18, 20}
+"""
+
+# Both set have in common
+both_set = store_set.intersection(store_new_set)
+print(both_set)
+""" Comparing both sets to see which ones are the same value if so print 
+
+Args:
+both_set = store_set.intersection(store_new_set)
+
+Returns: {10, 20}
+"""
+
+# unique values of 2
+both_set = store_set.difference(store_new_set)
+print(both_set)
+""" Compare both sets containing all elements and are different from the element by 2
+
+Args:
+both_set = store_set.difference(store_new_set)
+
+Returns: {2, 4, 6, 8, 12, 14, 16, 18}
+"""
+
+# unique values of 5
+both_set = store_new_set.difference(store_set)
+print(both_set)
+""" Compare both sets containing all elements and are different from the element by 5
+
+Args:
+both_set = store_new_set.difference(store_set)
+
+Returns: {5, 15}
 """
