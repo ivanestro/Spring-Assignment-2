@@ -17,7 +17,7 @@ final_vehicle_cost_with_tax = (0.05 + 0.07) * (vehicle_cost) + vehicle_cost
 list = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10]
 new_list = ['A', 'B', 'C']
 combine_list = list + new_list
-
+test_tuple = ('MB', "AB", "SK", "BC")
 
 # Print name and datatype
 print("name: ", NAME, "type: ", type(NAME))
@@ -160,4 +160,22 @@ list = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10]
 new_list = ['A', 'B', 'C']
 
 Returns: [1, 2 ,3, 4, 5, 6, 7, 8, 10, 'A', 'B', 'C']
+"""
+
+# Checking if it is a tuple
+print(type(test_tuple))
+""" Creating test_tuple and checking if it is a tuple data type
+Args:
+test_tuple = ('MB', 'AB', 'SK', 'BC')
+
+Returns: <class 'tuple'>
+"""
+
+# printing contents of tuple
+print(test_tuple)
+""" Printing the tuples variable contents
+Args:
+test_tuple = ('MB', 'AB', 'SK', 'BC')
+
+Returns: ('MB', 'AB', 'SK', 'BC')
 """
