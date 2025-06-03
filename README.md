@@ -110,13 +110,16 @@ Purchase Price: ${formatted value} Provincial Tax: ${formatted value} Federal Ta
 
 - **TUPLES**
 
-1. Declare a variable that stores a tuple. Assign the variable a new tuple that contains names of 4 Canadian provinces.
+1. Declare a variable that stores a tuple. Assign the variable a new tuple that contains names of 4 Canadian provinces. ✓
 
-2. Verify a tuple has been created by printing the data type of your tuple.
+2. Verify a tuple has been created by printing the data type of your tuple. ✓
 
-3. Print the tuple.
+3. Print the tuple. ✓
 
-4. Save and Commit your changes with a meaningful message.
+```csharp
+#Save and Commit!
+#Save and Commit your changes with a meaningful message. ✓
+```
 
 - **DICTIONARIES**
 
