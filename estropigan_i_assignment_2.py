@@ -2,7 +2,7 @@
 
 __author__ = "Ivan Estropigan"
 __version__ = "1.0.0"
-__credits__ = "COMP-1327 Dev Team"
+__credits__ = "COMP-1327 Dev Team, w3school, peps.python.org, "
 
 ## SIMPLE DATA TYPES
 
@@ -98,7 +98,7 @@ print("Purchase price: ", (vehicle_cost),
       "Federal Tax:", GST, 
       "Total:", (final_vehicle_cost_with_tax))
 
-""" To calculate and print without using print(f"") how much is the gst and total vehicle cost.
+""" Calculate and print without using print(f"")
 
 Args:
 GST = 0.05
@@ -125,6 +125,8 @@ final_vehicle_cost_with_tax = (0.05 + 0.07) * (vehicle_cost) + vehicle_cost
 
 Returns: Purchase Price: $100,000.00 Provincial Tax: $0.07 Federal Tax: $0.05 Total: $112,000.00
 """
+
+## LISTS
 
 # Checking if list type list
 print(type(list))
@@ -168,6 +170,9 @@ new_list = ['A', 'B', 'C']
 Returns: [1, 2 ,3, 4, 5, 6, 7, 8, 10, 'A', 'B', 'C']
 """
 
+
+## TUPLES
+
 # Checking if it is a tuple
 print(type(test_tuple))
 """ Creating test_tuple and checking if it is a tuple data type
@@ -185,6 +190,8 @@ test_tuple = ('MB', 'AB', 'SK', 'BC')
 
 Returns: ('MB', 'AB', 'SK', 'BC')
 """
+
+## DICTIONARY
 
 # Checking if it is a dictionary
 print(type(dictionary))
@@ -218,6 +225,8 @@ dictionary['Toonie'] = 200
 
 Returns: {'nickle': 5, 'dime': 0.1, 'quarter': 0.25, 'Loonie': 100, 'Toonie': 200}
 """
+
+## SETS
 
 # Making sure type is: set
 print(type(store_set))
