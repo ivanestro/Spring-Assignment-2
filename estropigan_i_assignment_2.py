@@ -61,7 +61,7 @@ type should return as boolean
 
 Returns: 
 Do you have Drivers License? [True] or [False] 
-If True: has license: {MANITOBA_DRIVERS_LICENSE} type: <class 'str'>
+If True has license: True type:  <class 'bool'>
 If False: Invalid Drivers License.
 """
 
