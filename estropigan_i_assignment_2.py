@@ -10,7 +10,10 @@ __credits__ = "COMP-1327 Dev Team"
 NAME = 'Ivan'
 CURRENT_DRIVERS_LICENSE = True
 current_year = 2025
-
+GST = 0.05
+PST = 0.07
+vehicle_cost = 100000.00
+final_vehicle_cost_with_tax = (0.05 + 0.07) * (vehicle_cost) + vehicle_cost
 
 # Print name and datatype
 print("name: ", NAME, "type: ", type(NAME))
@@ -65,7 +68,7 @@ Returns:
 this year: 2025 type: <class 'int'> 
 """
 
-#Increase the current year by 1 and type
+# Increase the current year by 1 and type
 current_year += 1
 print(f"next year: {current_year}", "type: ", type(current_year))
 
@@ -78,3 +81,38 @@ type(current_year) = int
 Returns: 
 next year: 2026 type: <class 'int'>
 """
+
+# Calculate and add Without print(f"")
+print("Purchase price: ", (vehicle_cost),
+      "Provincial Tax:", PST, 
+      "Federal Tax:", GST, 
+      "Total:", (final_vehicle_cost_with_tax))
+
+""" To calculate and print without using print(f"") how much is the gst and total vehicle cost.
+
+Args:
+GST = 0.05
+PST 0.07
+vehicle_cost = 100000
+final_vehicle_cost_with_tax = (0.05 + 0.07) * (vehicle_cost) + vehicle_cost
+
+Returns: Purchase price:  100000.0 Provincial Tax: 0.07 Federal Tax: 0.05 Total: 112000.0
+"""
+
+# Calculate and add format With print(f""":,.2f)
+print(f"Purchase Price: ${vehicle_cost:,.2f}",
+      f"Provincial Tax: ${PST:,.2f}",
+      f"Federal Tax: ${GST:,.2f}",
+      f"Total: ${final_vehicle_cost_with_tax:,.2f}")
+
+""" To calculate and print using print(f"") to format the $ and decimal points
+
+Args:
+GST = 0.05
+PST 0.07
+vehicle_cost = 100000
+final_vehicle_cost_with_tax = (0.05 + 0.07) * (vehicle_cost) + vehicle_cost
+
+Returns: Purchase Price: $100,000.00 Provincial Tax: $0.07 Federal Tax: $0.05 Total: $112,000.00
+"""
+
