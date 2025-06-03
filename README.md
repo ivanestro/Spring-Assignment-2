@@ -123,21 +123,26 @@ Purchase Price: ${formatted value} Provincial Tax: ${formatted value} Federal Ta
 
 - **DICTIONARIES**
 
-1. Declare a variable to store a dictionary. Assign the variable a dictionary that has the keys 'nickel', 'dime', and 'quarter' with the corresponding Canadian currency amounts as the values (as floating points) (e.g. nickel is associated with the value 0.05).
+1. Declare a variable to store a dictionary. Assign the variable a dictionary that has the keys 'nickel', 'dime', and 'quarter' with the corresponding Canadian currency amounts as the values (as floating points) (e.g. nickel is associated with the value 0.05). ✓
 
-2. Verify a dictionary has been created by printing the data type of your dictionary.
+2. Verify a dictionary has been created by printing the data type of your dictionary. ✓
 
-3. Print the dictionary.
+3. Print the dictionary. ✓
 
-4. Modify the values of each of the items in the dictionary to use whole numbers. (e.g. nickel is associated with the value 5).
+4. Modify the values of each of the items in the dictionary to use whole numbers. (e.g. nickel is associated with the value 5). ✓
 
-5. Print the dictionary.
+5. Print the dictionary. ✓
 
-6. Add two items to the existing dictionary representing the Loonie and Toonie (Loonie = 100, Toonie = 200).
+6. Add two items to the existing dictionary representing the Loonie and Toonie (Loonie = 100, Toonie = 200). ✓
 
-7. Print the dictionary.
+7. Print the dictionary. ✓
 
-8. Save and commit your changes with a meaningful message.
+8. Save and commit your changes with a meaningful message. ✓
+
+```csharp
+#Save and Commit!
+#Save and commit your changes with a meaningful message.
+```
 
 - **SETS**
 
