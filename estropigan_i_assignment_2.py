@@ -205,7 +205,7 @@ Returns: <class 'dict'>
 """
 
 # Modifying nickle to 5
-dictionary['nickle'] = 5
+dictionary.update({'nickle': 5, 'dime':10, 'quarter': 25})
 print(dictionary)
 """ Modifying nickle to 5 and printing it
 Args:
