@@ -2,9 +2,29 @@
 
 ## Importance of predefined standards in software development
 
+- The importance of predefined standards in software development is to enhance coding structures making it easier to read.
+- Developers can easily adapt and able to read codes.
+- Team collaboration following guidelines and reducing miscommunication, makes it easier to review and efficiently.
+- Reduces bug errors.
+- Reuseable codes from projects when necessary.
+
 ## Which software developer can employ ethical habits when writing code
 
+- Basically any level that will benefit from employ ethical habits when writing
+a code.
+- Cleaner code
+- Better Folder Security because when things gets all messy having hundreds and thousands of codes and files and folders we need clean code and this will help improve folder structure cleanliness.
+- Provides users privacy and personal data without consent.
+
 ## Describe the contents of the file's in this repository
+
+- gitinit to first initialize a new git repository. Sets up all necessary files and folders for git to start tracking changes. It is a hidden file in the folder structure. This content of gitinit contains tracking changes such as commits, branches and history.
+
+- .gitignore is to avoid unnessary files like logs, temps, protects data, reduces repository clutter.
+
+- README.md the use markdown by describing the project/assignment, step by step instructions, can collaborate with people with efficiency such as check marks if needed. What you will see in my README are all the contents in the assignment 2 and check marks of the work done.
+
+- estropigan_i_assignment_2.py is to create a code block for python storing codes and standard file for programming. In the contents here you will see a instruction lists of the things I have done on README.md and variables, instructions, standard documentation of what the code does and how it runs, what is the use of it and understanding the basic Operation, print statements, Collection types, and sets.
 
 ## Assignment 2 Questions
 
