@@ -131,7 +131,8 @@ Returns: Purchase Price: $100,000.00 Provincial Tax: $0.07 Federal Tax: $0.05 To
 # Checking if list type list
 print(type(list))
 
-""" To check if the list I have created is a type of list and print(type(list))
+""" To check if the list I have created is a type of list 
+and print(type(list))
 
 Args:
 list = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10]
@@ -207,7 +208,8 @@ Returns: <class 'dict'>
 # Modifying dictionary list by update
 dictionary.update({'nickle': 5, 'dime':10, 'quarter': 25})
 print(dictionary)
-""" Updating the list to their desired values this will help less clutter of code.
+""" Updating the list to their desired values 
+this will help less clutter of code.
 Args:
 dictionary.update({'nickle': 5, 'dime':10, 'quarter': 25})
 
@@ -258,7 +260,7 @@ Returns: {10, 20, 5, 15}
 # Combine both two sets
 union = store_new_set.union(store_set)
 print(union)
-""" combining two sets and printing both sets in one line
+""" Combining two sets and printing both sets in one line
 
 Args:
 union = store_new_set.union(store_set)
@@ -269,7 +271,7 @@ Returns: {2, 4, 5, 6, 8, 10, 12, 14, 15, 16, 18, 20}
 # Both set have in common
 both_set = store_set.intersection(store_new_set)
 print(both_set)
-""" Comparing both sets to see which ones are the same value if so print 
+""" Comparing both sets to see which ones are the same value if so print
 
 Args:
 both_set = store_set.intersection(store_new_set)
@@ -280,7 +282,8 @@ Returns: {10, 20}
 # unique values of 2
 both_set = store_set.difference(store_new_set)
 print(both_set)
-""" Compare both sets containing all elements and are different from the element by 2
+""" Compare both sets containing all elements and 
+are different from the element by 2
 
 Args:
 both_set = store_set.difference(store_new_set)
@@ -291,10 +294,13 @@ Returns: {2, 4, 6, 8, 12, 14, 16, 18}
 # unique values of 5
 both_set = store_new_set.difference(store_set)
 print(both_set)
-""" Compare both sets containing all elements and are different from the element by 5
+""" Compare both sets containing all elements and are different from 
+the element by 5
 
 Args:
 both_set = store_new_set.difference(store_set)
 
 Returns: {5, 15}
 """
+
+
