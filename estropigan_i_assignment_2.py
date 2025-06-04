@@ -101,9 +101,9 @@ print("Purchase price: ", (vehicle_cost),
 """ Calculate and print without using print(f"")
 
 Args:
-GST = 0.05
-PST 0.07
-vehicle_cost = 100000
+GST = 0.05 Constant name and fixed number manitoba's tax
+PST 0.07 Constant name and a fixed number for manitoba's tax
+vehicle_cost = 100000 The cost of vehicle can change regarding the assignment
 final_vehicle_cost_with_tax = (0.05 + 0.07) * (vehicle_cost) + vehicle_cost
 
 Returns: Purchase price:  100000.0 Provincial Tax: 0.07 Federal Tax: 0.05 Total: 112000.0
@@ -115,12 +115,12 @@ print(f"Purchase Price: ${vehicle_cost:,.2f}",
       f"Federal Tax: ${GST:,.2f}",
       f"Total: ${final_vehicle_cost_with_tax:,.2f}")
 
-""" To calculate and print using print(f"") to format the $ and decimal points
+""" Calculate and print using print(f"") to format the $ and decimal points
 
 Args:
-GST = 0.05
-PST 0.07
-vehicle_cost = 100000
+GST = 0.05 Constant name and fixed number manitoba's tax
+PST 0.07 Constant name and a fixed number for manitoba's tax
+vehicle_cost = 100000 The cost of vehicle can change regarding the assignment
 final_vehicle_cost_with_tax = (0.05 + 0.07) * (vehicle_cost) + vehicle_cost
 
 Returns: Purchase Price: $100,000.00 Provincial Tax: $0.07 Federal Tax: $0.05 Total: $112,000.00
@@ -131,7 +131,7 @@ Returns: Purchase Price: $100,000.00 Provincial Tax: $0.07 Federal Tax: $0.05 To
 # Checking if list type list
 print(type(list))
 
-""" To check if the list I have created is a type of list
+""" To check if the list I have created is a type of list and print(type(list))
 
 Args:
 list = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10]
